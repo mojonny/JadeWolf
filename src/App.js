@@ -7,7 +7,16 @@ import './App.css';
 import witch from './assets/witch.jpg';
 
 const About = () => {
-	return <h1>I am the about me page</h1>;
+	return (
+		<>
+			<h1>I am the about me page</h1>
+			<img
+				src={witch}
+				alt="witch"
+				style={{ width: '30%', padding: '10% 0 10% 30%', borderRadius: '10px' }}
+			/>
+		</>
+	);
 };
 
 const Shop = () => {
@@ -41,12 +50,7 @@ const App = () => {
 					</Route>
 				</Routes>
 			</div>
-
-			<img
-				src={witch}
-				alt="witch"
-				style={{ width: '30%', padding: '10% 0 10% 30%' }}
-			/>
+			<APICall />
 
 			<div className="footer">
 				<Routes>

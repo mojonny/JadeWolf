@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 
+import APICall from './components/api-call.component';
 import Home from './routes/home.component';
 import Navigation from './routes/navigation.component';
 import './App.css';
@@ -39,6 +40,8 @@ const App = () => {
 					</Route>
 				</Routes>
 			</div>
+
+			<APICall />
 
 			<div className="footer">
 				<Routes>

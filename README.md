@@ -1,3 +1,5 @@
+This app is made for my wife's side-hustle and mainly to practice Reactjs...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -4,6 +4,7 @@ import APICall from './components/api-call.component';
 import Home from './routes/home.component';
 import Navigation from './routes/navigation.component';
 import './App.css';
+import witch from './assets/witch.jpg';
 
 const About = () => {
 	return <h1>I am the about me page</h1>;
@@ -41,7 +42,11 @@ const App = () => {
 				</Routes>
 			</div>
 
-			<APICall />
+			<img
+				src={witch}
+				alt="witch"
+				style={{ width: '30%', padding: '10% 0 10% 30%' }}
+			/>
 
 			<div className="footer">
 				<Routes>

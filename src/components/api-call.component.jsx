@@ -37,10 +37,9 @@ export default function APICall() {
 	return (
 		<div>
 			<div>Result</div>
-			{res[0]}
 			{res.length > 0 ? (
-				res.map((row) => {
-					return { row };
+				res.map((body) => {
+					return Object.values(body);
 				})
 			) : (
 				<Spin />
